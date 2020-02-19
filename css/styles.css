@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+}
+
+table {
+    margin: 5px auto 0;
+    table-layout:fixed;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+    transform: rotateX(60deg) rotatez(10deg);
+    -moz-transform: rotateX(60deg) rotatez(10deg);
+    -webkit-transform: rotateX(60deg) rotatez(10deg);
+    -o-transform: rotateX(60deg) rotatez(10deg);
+    -ms-transform: rotateX(60deg) rotatez(10deg);
+}
+
+td {
+    padding: 5px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+
+table:not(:first-of-type) {
+    margin: -65px auto 0;
+}
+
+.top {
+    border-top: 2px solid #000;
+}
+
+.left {
+    border-left: 2px solid #000;
+}
+
+.right {
+    border-right: 2px solid #000;
+}
+
+.bottom {
+    border-bottom: 2px solid #000;
+}
+
+.invalid-feedback {
+    font-size: 100%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+#nav-logout {
+    cursor: pointer;
+}

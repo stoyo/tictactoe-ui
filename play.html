@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="3D tic-tac-toe">
+    <meta name="author" content="Stoyan Genchev">
+    <title>3D tic-tac-toe</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<main role="main" class="container">
+    <div class="row">
+        <div class="col-md-4 mt-5">
+            <form method="post" autocomplete="off">
+                <div class="invalid-feedback">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="mb-3">
+                    <label for="n">Board size: n * n * n</label>
+                    <input type="number" class="form-control" id="n" name="n"
+                           placeholder="n">
+                </div>
+                <button class="btn btn-primary btn-block" type="submit"
+                        id="new-game-button">new game
+                </button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<script src="./scripts/header.js" defer></script>
+<script src="./scripts/config.js" defer></script>
+<script src="./scripts/script.js" defer></script>
+<script src="./scripts/play.js" defer></script>
+</body>
+</html>
